@@ -169,3 +169,17 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Virtual environment
+.venv/
+
+# Data (large files, can be downloaded from HuggingFace)
+data/scout_data/
+data/scout_information.json
+
+# Mac files
+**/.DS_Store
+
+# Gradio
+.gradio/
