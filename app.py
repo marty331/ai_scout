@@ -154,13 +154,12 @@ def launch_ui():
             show_label=False,
             show_copy_button=True,
         )
-        chat_interface = gr.ChatInterface(
+        gr.ChatInterface(
             fn=generate_completion, 
             chatbot=chatbot,
             additional_inputs=[memory_state]
             )
-        chat_interface.render()
-
+        
         demo.queue(default_concurrency_limit=64)
         demo.launch(debug=True, share=False) # Set share=True to share the app online
 
