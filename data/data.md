@@ -22,6 +22,8 @@ Run the following command to execute the data scraper script:
 
 `python3 data_scraper.py`
 
+
+
 ## Post Processing - optional
 
 The data that is downloaded is approximately 200 mb, to review the data it needs to be formatted, otherwise it will all be on a single line.
@@ -31,3 +33,6 @@ Run the following command from your terminal:
 `cat scout_information.json | python -m json.tool > pretty_scout_information.json`
 
 After reviewing the data for completeness delete the pretty_scout_information.json file as it is not needed for processing.
+
+The second step in the data scraper is creating a vector store.  Prior to this repo being created this vector store was uploaded to
+Huggingface Datasets and can be found here: `marty331/scouts_dataset_vector_store`.
