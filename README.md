@@ -1,3 +1,14 @@
+---
+title: AI Scout
+emoji: 💡
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: "4.44.1"
+app_file: app.py
+pinned: false
+---
+
 # AI Scout
 Scouting has been a part of my life since I was a young man, now as a dad I volunteer my time for my son's troop.  As scouting has remained relevant to me I wanted to create an AI that will help with questions around Scouting.
 
