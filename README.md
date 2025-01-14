@@ -25,5 +25,13 @@ The application is using GPT-4o-mini and the expected costs are as follows:
 | Output |  5,000 | $0.003   |
 | Total  |        | $0.00525 |
 
+## Suggested Questions
+Here are a few suggested questions for testing the application:
+`What merit badges are required for the rank of Eagle Scout?`
+
+`Where is Philmont Scout ranch?`
+
+`What are the requirements for the Cycling merit badge?`
+
 ## Data
 Data processing infomation can be found here [Data](./data/data.md).
